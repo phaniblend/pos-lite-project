@@ -2,22 +2,42 @@
 node_modules/
 __pycache__/
 venv/
+*.pyc
+*.pyo
+*.pyd
+.Python
 
 # Environment
 .env
 .env.local
+.env.*.local
 
 # Build outputs
 dist/
 build/
 .next/
+.nuxt/
+.svelte-kit/
+*.log
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.sublime-project
+*.sublime-workspace
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
